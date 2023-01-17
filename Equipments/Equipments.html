@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en"><!-- InstanceBegin template="/Templates/IndexTEmplate.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <title>Equipments</title>
+    <!-- InstanceEndEditable -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="../lib/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- InstanceBeginEditable name="head" -->
+    <!-- InstanceEndEditable -->
+</head>
+<body  onLoad="loadMap()">
+
+  <nav class="navbar navbar-expand-lg fixed-top r-nav stick" id="navbar">
+    <dvi class="container">
+     <a href="../index.html"><p class="navbar-brand" href="#"><span style="color: red; font-family: Lucida Calligraphy; font-weight: bold;">flip-in</span><span style="font-family: Bell MT;"> HAIR</span></p></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navID" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="lines"><i class="fas fa-bars"></i></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navID">
+      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="../index.html">HOME</a>
+        </li>
+     <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            HAIR STYLE
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle subMenu" href="#">HAIRSTYLE FOR</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item subSub" href="../HairStyle%20For/Wedding.html">Wedding</a></li>
+                <li><a class="dropdown-item subSub" href="../HairStyle%20For/Men.html">Men</a></li>
+                <li><a class="dropdown-item subSub" href="../HairStyle%20For/Kids.html">Kids</a></li>
+              </ul>
+            </li>
+            <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle dropdown subMenu" href="#">2020 HAIRSTYLE TRENDS</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item subSub" href="../hairStyle%20Trends/WomenTrend.html">Hairstyle trends for women</a></li>
+                <li><a class="dropdown-item subSub" href="../hairStyle%20Trends/MenTrends.html">Hairstyle trends for men</a></li>
+                <li><a class="dropdown-item subSub" href="../hairStyle%20Trends/KidsTredn.html">Hairstyle trends for kids</a></li>
+              </ul>
+            </li>
+            <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle dropdown subMenu" href="#">HAIRSTYLE WITH</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item subSub" href="../HairStyle%20With/Long%20Hair.html">Long hair</a></li>
+                <li><a class="dropdown-item subSub" href="../HairStyle%20With/Short%20Hair.html">Stort hair</a></li>
+                <li><a class="dropdown-item subSub" href="../HairStyle%20With/Hair%20Band.html">Hairband</a></li>
+              </ul>
+            </li>
+          </ul>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              HAIR CARE
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle dropdown subMenu" href="#">HAIR CARE FOR</a>
+                <ul class="dropdown-menu">
+                   <li><a class="dropdown-item subSub" href="../Hair%20Care%20For/ThinHair.html">Thin Hair</a></li>
+                    <li><a class="dropdown-item subSub" href="../Hair%20Care%20For/FineHair.html">Fine Hair</a></li>
+					<li><a class="dropdown-item subSub" href="../Hair%20Care%20For/Dandruff1.html">Dandruff</a></li>
+					<li><a class="dropdown-item subSub" href="../Hair%20Care%20For/Curls.html">Curls</a></li>
+                 
+              </li>
+			  </ul>
+              <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle dropdown subMenu" href="#">CARE FOR HAIR</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item subSub" href="../Care%20For%20Hair/Conditioners.html">Conditioners</a></li>
+                    <li><a class="dropdown-item subSub" href="../Care%20For%20Hair/HairOil.html">Hair Oil</a></li>
+                    <li><a class="dropdown-item subSub" href="../Care%20For%20Hair/HairCream.html">Hair Cream</a></li>
+                    <li><a class="dropdown-item subSub" href="../Care%20For%20Hair/Shampooing.html">Shampooing</a></li>
+                </ul>
+              </li>
+              <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle dropdown subMenu" href="#">HOME REMEDIES</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item subSub" href="../Care%20For%20Hair/HomeRemedies1.html">Type1</a></li>
+                    <li><a class="dropdown-item subSub" href="../Care%20For%20Hair/HomeRemedies2.html">Type2</a></li>
+                </ul>
+              </li>
+            </ul>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                OUR BRAND
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle dropdown subMenu" href="#">EQUIPMENTS</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item subSub" href="Equipments.html">See All</a></li>
+                    <li><a class="dropdown-item subSub" href="Straightener.html">Straightener</a></li>
+					<li><a class="dropdown-item subSub" href="CurlingTong.html">Curling Tong</a></li>
+					<li><a class="dropdown-item subSub" href="Brush.html">Brush</a></li>
+					<li><a class="dropdown-item subSub" href="HairDryer.html">Hair Dryer</a></li>
+					<li><a class="dropdown-item subSub" href="Thinner.html">Thinner</a></li>
+					<li><a class="dropdown-item subSub" href="HairComb.html">Hair Comb</a></li>
+					<li><a class="dropdown-item subSub" href="HairRoller.html">Hair Roller</a></li>
+					<li><a class="dropdown-item subSub" href="Clamps&Clips.html">Clamps & Clips</a></li>
+					<li><a class="dropdown-item subSub" href="WaterSpray.html">Water Spray</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle dropdown subMenu" href="">PRODUCTS</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item subSub" href="../Products/Products.html">See All</a></li>
+                    <li><a class="dropdown-item subSub" href="../Products/HairConditioner.html">Hair Conditioner</a></li>
+					<li><a class="dropdown-item subSub" href="../Products/HairOil.html">Hair Oil</a></li>
+					<li><a class="dropdown-item subSub" href="../Products/Shampoo.html">Shampoo</a></li>
+					<li><a class="dropdown-item subSub" href="../Products/HairMask.html">Hair Mask</a></li>
+					<li><a class="dropdown-item subSub" href="../Products/HairColor.html">Hair Color</a></li>
+					<li><a class="dropdown-item subSub" href="../Products/HairSerum.html">Hair Serum</a></li>
+					<li><a class="dropdown-item subSub" href="../Products/HairSpray.html">Hair Spray</a></li>
+					<li><a class="dropdown-item subSub" href="../Products/AntiHairFall.html">Anti Hair Fall</a></li>
+					<li><a class="dropdown-item subSub" href="../Products/HairMousse.html">Hair Mousse</a></li>
+                  </ul>
+                </li>
+              </ul>
+        </li>
+<!--
+        <li class="nav-item">
+          <a class="nav-link" href="../Gallery.html">GALLERY</a>
+        </li>
+-->
+		
+		
+		<li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               COLLECTION
+              </a> 
+			<ul class="dropdown-menu">
+				<li><a class="dropdown-item subSub" href="../Gallery.html">Gallery</a></li>
+                <li><a class="dropdown-item subSub" href="../Untitled-1.html">Compare</a></li>
+			</ul>
+		</li>
+		
+		
+		  <li class="nav-item">
+          <a class="nav-link" href="../contactus.html">CONTACT</a>
+        </li>
+		  <li class="nav-item">
+          <a class="nav-link" href="../About.html">ABOUT</a>
+        </li>
+      </ul>
+    </div>
+  </dvi>
+  </nav>
+  <!-- InstanceBeginEditable name="pagetittle" -->
+	
+	
+	
+	<section style="height: 505px" class="mb-5 m-t section1">
+	<div id="carousel-1" class="carousel slide" data-ride="carousel">
+       
+		<ol class="carousel-indicators">
+			<li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+			<li data-target="#carousel-1" data-slide-to="1"></li>
+			<li data-target="#carousel-1" data-slide-to="2"></li>
+			<li data-target="#carousel-1" data-slide-to="3"></li>
+			<li data-target="#carousel-1" data-slide-to="4"></li>
+			<li data-target="#carousel-1" data-slide-to="5"></li>
+			<li data-target="#carousel-1" data-slide-to="6"></li>
+			<li data-target="#carousel-1" data-slide-to="7"></li>
+			<li data-target="#carousel-1" data-slide-to="8"></li>
+		</ol>
+       
+        <div class="carousel-inner" role="listbox">
+
+          <div class="carousel-item active">
+            <a href="Straightener.html"><img class="d-block img-fluid" src="../Images/straightener.jpg" alt="slide" style="width: 100%;height: 400px"></a>
+            <div class="carousel-caption d-none d-md-block">
+             <h3><span style="color: black;">Straightener</span></h3>
+            </div>
+          </div>
+          
+          <div class="carousel-item">
+            <a href="CurlingTong.html"><img class="d-block img-fluid" src="../Images/curling tong.jpg" alt="Slide" style="width: 100%;height: 400px"></a>
+            <div class="carousel-caption d-none d-md-block">
+              <h3><span style="color: black">Curling Tong</span></h3>
+            </div>
+          </div>
+          
+          <div class="carousel-item">
+            <a href="Brush.html"><img class="d-block img-fluid" src="../Images/brush.jpg" alt="Slide" style="width: 100%;height: 400px"></a>
+            <div class="carousel-caption d-none d-md-block">
+              <h3><span style="color: black">Brush</span></h3>
+            </div>
+          </div>
+          
+          <div class="carousel-item">
+            <a href="HairDryer.html"><img class="d-block img-fluid" src="../Images/hairdryer.jpg" alt="Slide" style="width: 100%;height: 420px"></a>
+            <div class="carousel-caption d-none d-md-block">
+              <h3><span style="color: black">Hair Dryer</span></h3>
+            </div>
+          </div>
+			
+			<div class="carousel-item">
+            <a href="Thinner.html"><img class="d-block img-fluid" src="../Images/thinner.jpeg" alt="Slide" style="width: 100%;height: 400px"></a>
+            <div class="carousel-caption d-none d-md-block">
+              <h3><span style="color: black">Thinner</span></h3>
+            </div>
+          </div>
+			
+			<div class="carousel-item">
+            <a href="HairComb.html"><img class="d-block img-fluid" src="../Images/haircomb.webp" alt="Slide" style="width: 100%;height: 400px"></a>
+            <div class="carousel-caption d-none d-md-block">
+              <h3><span style="color: black">Hair Comb</span></h3>
+            </div>
+          </div>
+			
+		  <div class="carousel-item">
+            <a href="HairRoller.html"><img class="d-block img-fluid" src="../Images/roller.jpg" alt="Slide" style="width: 100%;height: 400px"></a>
+            <div class="carousel-caption d-none d-md-block">
+              <h3><span style="color: black">Hair Roller</span></h3>
+            </div>
+          </div>
+			
+		  <div class="carousel-item">
+            <a href="Clamps&Clips.html"><img class="d-block img-fluid" src="../Images/clips.jpg" alt="Slide" style="width: 100%;height: 400px"></a>
+            <div class="carousel-caption d-none d-md-block">
+              <h3><span style="color: black">Clamps & Clips</span></h3>
+            </div>
+          </div>
+			
+			<div class="carousel-item">
+            <a href="WaterSpray.html"><img class="d-block img-fluid" src="../Images/waterspray.jpg" alt="Slide" style="width: 100%;height: 400px"></a>
+            <div class="carousel-caption d-none d-md-block">
+              <h3><span style="color: black">Water Spray</span></h3>
+            </div>
+          </div>
+			
+			
+        </div><!-- e carousel-inner -->
+		
+        
+        <a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">prev</span>
+        </a>
+        
+        <a class="carousel-control-next" href="#carousel-1" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">next</span>
+        </a>
+        
+	</div>
+</section>
+	
+	
+	<section class="container">
+		<div class="row">
+			<div class="col-md-12 d-flex align-items-center justify-content-center">
+				<div class="col-md-4 border1"></div>
+				<h6 style="color: rgb(104, 98, 98); font-size: 20px;">ALL EQUIPMENTS</h6>
+				<div class="col-md-4 border1"></div>
+			</div>
+		</div>
+	</section>
+
+
+	
+	<section class="container mt-5 py-5 y">
+		<div class="row">
+			
+			<div class="col-md-6">
+				<a href="Straightener.html"><img src="../Images/straightener.jpg" style="width: 90%" class="productImg"></a>
+				<div style="background-color: whitesmoke; width: 250px; height: 100px">
+					<a href="Equipments.html"><p style="font-size: 15px; font-family: Bahnschrift SemiBold" class="text-center"><span style="color: black">EQUIPMENTS</span></p></a>
+					<a href="Straightener.html"><p style="font-size: 25px; font-family: Bell MT" class="text-center align-items-center"><span style="color: black">Straightener</span></p></a>
+				</div>
+			</div>
+			
+			<div class="col-md-6">
+				<a href="CurlingTong.html"><img src="../Images/curling tong.jpg" style="width: 90%" class="productImg"></a>
+				<div style="background-color: whitesmoke; width: 250px; height: 100px">
+					<a href="Equipments.html"><p style="font-size: 15px; font-family: Bahnschrift SemiBold" class="text-center"><span style="color: black">EQUIPMENTS</span></p></a>
+					<a href="CurlingTong.html"><p style="font-size: 25px; font-family: Bell MT" class="text-center"><span style="color: black">Curling Tong</span></p></a>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	<section class="container mt-5 py-5">
+		
+		<div class="row">
+			
+			<div class="col-md-4">
+				<a href="Brush.html"><img src="../Images/brush.jpg" style="width: 100%; height: 300px" class="productImg"></a>
+				<div style="background-color: whitesmoke; width: 250px; height: 100px;">
+					<a href="Equipments.html"><p style="font-size: 15px; font-family: Bahnschrift SemiBold" class="text-center"><span style="color: black">EQUIPMENTS</span></p></a>
+					<a href="Brush.html"><p style="font-size: 25px; font-family: Bell MT" class="text-center"><span style="color: black">Brush</span></p></a>
+				</div>
+			</div>
+			
+			<div class="col-md-4">
+				<a href="HairDryer.html"><img src="../Images/hairdryer.jpg" style="width: 100%; height: 300px" class="productImg"></a>
+				<div style="background-color: whitesmoke; width: 250px; height: 100px;">
+					<a href="Equipments.html"><p style="font-size: 15px; font-family: Bahnschrift SemiBold" class="text-center"><span style="color: black">EQUIPMENT</span></p></a>
+					<a href="HairDryer.html"><p style="font-size: 25px; font-family: Bell MT" class="text-center"><span style="color: black">Hair Dryer</span></p></a>
+				</div>
+			</div>
+			
+			<div class="col-md-4">
+		       <a href="Thinner.html"> <img src="../Images/thinner.jpeg" style="width: 100%; height: 300px" class="productImg"></a>
+				<div style="background-color: whitesmoke; width: 250px; height: 100px;">
+					<a href="Equipments.html"><p style="font-size: 15px; font-family: Bahnschrift SemiBold" class="text-center"><span style="color: black">EQUIPMENT</span></p></a>
+					<a href="Thinner.html"><p style="font-size: 25px; font-family: Bell MT" class="text-center"><span style="color: black">Thinner</span></p></a>
+				</div>
+			</div>
+			
+			
+		</div>
+	</section>
+	
+	
+	<section class="container mt-5">
+		<div class="row">
+			
+			<div class="col-md-6">
+				<a href="HairComb.html"><img src="../Images/haircomb.webp" style="width: 90%" class="productImg"></a>
+				<div style="background-color: whitesmoke; width: 250px; height: 100px">
+					<a href="Equipments.html"><p style="font-size: 15px; font-family: Bahnschrift SemiBold" class="text-center"><span style="color: black">EQUIPMENT</span></p></a>
+					<a href="HairComb.html"><p style="font-size: 25px; font-family: Bell MT" class="text-center"><span style="color: black">Hair Comb</span></p></a>
+				</div>
+			</div>
+			
+			<div class="col-md-6">
+				<a href="HairRoller.html"><img src="../Images/roller.jpg" style="width: 85%" class="productImg"></a>
+				<div style="background-color: whitesmoke; width: 250px; height: 110px">
+					<a href="Equipments.html"><p style="font-size: 15px; font-family: Bahnschrift SemiBold" class="text-center"><span style="color: black">EQUIPMENT</span></p></a>
+					<a href="HairRoller.html"><p style="font-size: 25px; font-family: Bell MT" class="text-center align-items-center"><span style="color: black">Hair Rollre</span></p></a>
+				</div>
+			</div>
+			
+		</div>
+	</section>
+	
+	
+	<section class="container mt-5">
+		<div class="row">
+			
+			<div class="col-md-6">
+				<a href="Clamps&Clips.html"><img src="../Images/clips.jpg" style="width: 520px;height: 350px" class="productImg"></a>
+				<div style="background-color: whitesmoke; width: 250px; height: 110px">
+					<a href="Equipments.html"><p style="font-size: 15px; font-family: Bahnschrift SemiBold" class="text-center"><span style="color: black">EQUIPMENT</span></p></a>
+					<a href="Clamps&Clips.html"><p style="font-size: 25px; font-family: Bell MT" class="text-center align-items-center"><span style="color: black">Clamps & Clips</span></p></a>
+				</div>
+				
+			</div>
+			
+			<div class="col-md-6">
+				<a href="WaterSpray.html"><img src="../Images/waterspray.jpg" style="width: 520px;height: 350px" class="productImg"></a>
+				<div style="background-color: whitesmoke; width: 250px; height: 110px">
+					<a href="Equipments.html"><p style="font-size: 15px; font-family: Bahnschrift SemiBold" class="text-center"><span style="color: black">EQUIPMENT</span></p></a>
+					<a href="WaterSpray.html"><p style="font-size: 25px; font-family: Bell MT" class="text-center align-items-center"><span style="color: black">Water Spray</span></p></a>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	
+	
+	
+	
+	
+	
+	
+	<!-- InstanceEndEditable -->
+
+ 
+  
+  <section class="t-m container icon footericon">
+    <div class="row">
+      <div class="col-md-2">
+        <center><i class="fas fa-truck-moving"></i></center>
+        <p>FAST DELIVERY</p>
+      </div>
+
+      <div class="col-md-2">
+        <center><i class="fas fa-gift"></i></center>
+        <p>FREE SAMPLE</p>
+      </div>
+
+      <div class="col-md-2">
+        <center><i class="fas fa-lock-alt"></i></center>
+        <p>BUYER PROTECTION</p>
+      </div>
+
+      <div class="col-md-2">
+        <center><i class="fas fa-shopping-cart"></i></center>
+        <p>FREE SHIPPING</p>
+      </div>
+
+      <div class="col-md-2">
+        <center><i class="fas fa-phone-square-alt"></i></center>
+        <p>LOW PRICES</p>
+      </div>
+
+      <div class="col-md-2">
+        <center><i class="fas fa-money-bill-alt"></i></center>
+        <p>RESPONCE ON TIME</p>
+      </div>
+    </div>
+  </section>
+  
+
+
+<footer class="footer-section">
+  <div class="container">
+      <div class="footer-cta pt-5 pb-5">
+          <div class="row">
+              <div class="col-xl-4 col-md-4 mb-30">
+                  <div class="single-cta">
+                      <i class="fas fa-map-marker-alt"></i>
+                      <div class="cta-text">
+                          <h4>Find us</h4>
+                          <span>Aptech Garden</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-md-4 mb-30">
+                  <div class="single-cta">
+                      <i class="fas fa-phone"></i>
+                      <div class="cta-text">
+                          <h4>Call us</h4>
+                          <span>0321-123456789</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-md-4 mb-30">
+                  <div class="single-cta">
+                      <i class="far fa-envelope-open"></i>
+                      <div class="cta-text">
+                          <h4>Mail us</h4>
+                          <span>aptechgarden@gmail.com</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="footer-content pt-5 pb-5">
+          <div class="row">
+              <div class="col-xl-4 col-lg-4 mb-50">
+                  <div class="footer-widget">
+                      <div class="footer-logo">
+                          <a href="../index.html"></a>
+                      </div>
+                      <div class="footer-text">
+                          <p><span style="color: red; font-family: Lucida Calligraphy; font-size: 30px; font-weight: bold;">flip-in</span><span style="font-size: 40px; font-family: Bell MT; color: white;"> HAIR</span></p>
+                          <p>Getting into a hair care routine is just like embarking on a skin care one. Once you’ve found one that works for you, you’ll rarely stray.</p>
+                      </div>
+                      <div class="footer-social-icon">
+                          <span>Follow us</span>
+                          <a href="https://www.facebook.com/"><i class="fab fa-facebook-f facebook-bg fb"></i></a>
+                          <a href="https://twitter.com/?lang=en"><i class="fab fa-twitter twitter-bg tw"></i></a>
+                          <a href="https://accounts.google.com/ServiceLogin/signinchooser?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin"><i class="fab fa-google-plus-g google-bg go"></i></a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                  <div class="footer-widget">
+                      <div class="footer-widget-heading">
+                          <h3>Useful Links</h3>
+                      </div>
+                      <ul>
+                          <li><a href="../index.html">Home</a></li>
+                          <li><a href="../About.html">About us</a></li>
+                          <li><a href="../contactus.html">Contact us</a></li>
+                          <li><a href="../Slider/Slider2.html">Latest News</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                  <div class="footer-widget">
+                      <div class="footer-widget-heading">
+                          <h3>Subscribe</h3>
+                      </div>
+                      <div class="footer-text mb-25">
+                          <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                      </div>
+                      <div class="subscribe-form">
+                          <form action="#">
+                              <input type="email" placeholder="Email Address" id="email">
+                              <button><i class="fab fa-telegram-plane air-Plane" onClick="email()"></i></button>
+                          </form>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
+    
+
+
+ <script src="../lib/jquery.min.js"></script>   
+ <script src="../lib/popper.min.js"></script>
+ <script src="../lib/bootstrap.min.js"></script>
+ <script src="../lib/typed.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>	
+ <script src="../js/app.js"></script>
+</body>
+<!-- InstanceEnd --></html>

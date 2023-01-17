@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en"><!-- InstanceBegin template="/Templates/IndexTEmplate.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <title>Slider 2</title>
+    <!-- InstanceEndEditable -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="../lib/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- InstanceBeginEditable name="head" -->
+    <!-- InstanceEndEditable -->
+</head>
+<body  onLoad="loadMap()">
+
+  <nav class="navbar navbar-expand-lg fixed-top r-nav stick" id="navbar">
+    <dvi class="container">
+     <a href="../index.html"><p class="navbar-brand" href="#"><span style="color: red; font-family: Lucida Calligraphy; font-weight: bold;">flip-in</span><span style="font-family: Bell MT;"> HAIR</span></p></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navID" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="lines"><i class="fas fa-bars"></i></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navID">
+      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="../index.html">HOME</a>
+        </li>
+     <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            HAIR STYLE
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle subMenu" href="#">HAIRSTYLE FOR</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item subSub" href="../HairStyle%20For/Wedding.html">Wedding</a></li>
+                <li><a class="dropdown-item subSub" href="../HairStyle%20For/Men.html">Men</a></li>
+                <li><a class="dropdown-item subSub" href="../HairStyle%20For/Kids.html">Kids</a></li>
+              </ul>
+            </li>
+            <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle dropdown subMenu" href="#">2020 HAIRSTYLE TRENDS</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item subSub" href="../hairStyle%20Trends/WomenTrend.html">Hairstyle trends for women</a></li>
+                <li><a class="dropdown-item subSub" href="../hairStyle%20Trends/MenTrends.html">Hairstyle trends for men</a></li>
+                <li><a class="dropdown-item subSub" href="../hairStyle%20Trends/KidsTredn.html">Hairstyle trends for kids</a></li>
+              </ul>
+            </li>
+            <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle dropdown subMenu" href="#">HAIRSTYLE WITH</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item subSub" href="../HairStyle%20With/Long%20Hair.html">Long hair</a></li>
+                <li><a class="dropdown-item subSub" href="../HairStyle%20With/Short%20Hair.html">Stort hair</a></li>
+                <li><a class="dropdown-item subSub" href="../HairStyle%20With/Hair%20Band.html">Hairband</a></li>
+              </ul>
+            </li>
+          </ul>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              HAIR CARE
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle dropdown subMenu" href="#">HAIR CARE FOR</a>
+                <ul class="dropdown-menu">
+                   <li><a class="dropdown-item subSub" href="../Hair%20Care%20For/ThinHair.html">Thin Hair</a></li>
+                    <li><a class="dropdown-item subSub" href="../Hair%20Care%20For/FineHair.html">Fine Hair</a></li>
+					<li><a class="dropdown-item subSub" href="../Hair%20Care%20For/Dandruff1.html">Dandruff</a></li>
+					<li><a class="dropdown-item subSub" href="../Hair%20Care%20For/Curls.html">Curls</a></li>
+                 
+              </li>
+			  </ul>
+              <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle dropdown subMenu" href="#">CARE FOR HAIR</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item subSub" href="../Care%20For%20Hair/Conditioners.html">Conditioners</a></li>
+                    <li><a class="dropdown-item subSub" href="../Care%20For%20Hair/HairOil.html">Hair Oil</a></li>
+                    <li><a class="dropdown-item subSub" href="../Care%20For%20Hair/HairCream.html">Hair Cream</a></li>
+                    <li><a class="dropdown-item subSub" href="../Care%20For%20Hair/Shampooing.html">Shampooing</a></li>
+                </ul>
+              </li>
+              <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle dropdown subMenu" href="#">HOME REMEDIES</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item subSub" href="../Care%20For%20Hair/HomeRemedies1.html">Type1</a></li>
+                    <li><a class="dropdown-item subSub" href="../Care%20For%20Hair/HomeRemedies2.html">Type2</a></li>
+                </ul>
+              </li>
+            </ul>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                OUR BRAND
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle dropdown subMenu" href="#">EQUIPMENTS</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item subSub" href="../Equipments/Equipments.html">See All</a></li>
+                    <li><a class="dropdown-item subSub" href="../Equipments/Straightener.html">Straightener</a></li>
+					<li><a class="dropdown-item subSub" href="../Equipments/CurlingTong.html">Curling Tong</a></li>
+					<li><a class="dropdown-item subSub" href="../Equipments/Brush.html">Brush</a></li>
+					<li><a class="dropdown-item subSub" href="../Equipments/HairDryer.html">Hair Dryer</a></li>
+					<li><a class="dropdown-item subSub" href="../Equipments/Thinner.html">Thinner</a></li>
+					<li><a class="dropdown-item subSub" href="../Equipments/HairComb.html">Hair Comb</a></li>
+					<li><a class="dropdown-item subSub" href="../Equipments/HairRoller.html">Hair Roller</a></li>
+					<li><a class="dropdown-item subSub" href="../Equipments/Clamps&Clips.html">Clamps & Clips</a></li>
+					<li><a class="dropdown-item subSub" href="../Equipments/WaterSpray.html">Water Spray</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle dropdown subMenu" href="">PRODUCTS</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item subSub" href="../Products/Products.html">See All</a></li>
+                    <li><a class="dropdown-item subSub" href="../Products/HairConditioner.html">Hair Conditioner</a></li>
+					<li><a class="dropdown-item subSub" href="../Products/HairOil.html">Hair Oil</a></li>
+					<li><a class="dropdown-item subSub" href="../Products/Shampoo.html">Shampoo</a></li>
+					<li><a class="dropdown-item subSub" href="../Products/HairMask.html">Hair Mask</a></li>
+					<li><a class="dropdown-item subSub" href="../Products/HairColor.html">Hair Color</a></li>
+					<li><a class="dropdown-item subSub" href="../Products/HairSerum.html">Hair Serum</a></li>
+					<li><a class="dropdown-item subSub" href="../Products/HairSpray.html">Hair Spray</a></li>
+					<li><a class="dropdown-item subSub" href="../Products/AntiHairFall.html">Anti Hair Fall</a></li>
+					<li><a class="dropdown-item subSub" href="../Products/HairMousse.html">Hair Mousse</a></li>
+                  </ul>
+                </li>
+              </ul>
+        </li>
+<!--
+        <li class="nav-item">
+          <a class="nav-link" href="../Gallery.html">GALLERY</a>
+        </li>
+-->
+		
+		
+		<li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               COLLECTION
+              </a> 
+			<ul class="dropdown-menu">
+				<li><a class="dropdown-item subSub" href="../Gallery.html">Gallery</a></li>
+                <li><a class="dropdown-item subSub" href="../Untitled-1.html">Compare</a></li>
+			</ul>
+		</li>
+		
+		
+		  <li class="nav-item">
+          <a class="nav-link" href="../contactus.html">CONTACT</a>
+        </li>
+		  <li class="nav-item">
+          <a class="nav-link" href="../About.html">ABOUT</a>
+        </li>
+      </ul>
+    </div>
+  </dvi>
+  </nav>
+  <!-- InstanceBeginEditable name="pagetittle" -->
+	
+	
+	<section class="m-t">
+		<div class="row">
+			<div class="col-md-12">
+				
+				<div>
+					<img src="../Images/slider2.jpg" style="width: 100%; height: 450px; margin-bottom:-48px">
+				</div>
+				
+				<div class=" mt-5" style="background-color: beige; text-align: center; padding: 15px; width: 100%">
+					<h6 class="ml14" style="font-size: 2em;">
+						<span class="text-wrapper">
+							<span class="letters">GHD HELIOS® – THE INNOVATION FOR FULL STYLING CONTROL</span>
+							<span class="line"></span>
+						</span>
+					</h6>
+			    </div>
+		    </div>
+		</div>
+	</section>
+	
+	
+	<section class="container mt-5">
+		<div class="row">
+			<div class="col-md-12">
+				<p>The ghd helios® Hairdryer is the latest addition to ghd. The ghd brand is well known for its high quality and efficient electrical appliances and the new hairdryer has also quickly convinced us. The ghd helios® represents a revolution and now defines the fastest, lightest and most accurate hairdryer in the ghd family. As usual, we will introduce this innovation in more detail.</p>
+			</div>
+		</div>
+	</section>
+	
+	
+	<section class="container mt-5">
+		<div class="row">
+			<div class="col-md-12 d-flex align-items-center justify-content-center">
+				<div class="col-md-4 border1" style="width: 100%"></div>
+				<h6 style="color: rgb(104, 98, 98); font-size: 20px; width: 100%; text-align: center">THE TECHNOLOGY OF THE GHD HELIOS</h6>
+				<div class="col-md-4 border1" style="width: 100%"></div>
+			</div>
+		</div>
+	</section>
+	
+	
+	<section class="container mt-5">
+		<div class="row">
+			<div class="col-md-6">
+				<p>The ghd helios® offers the customer FASTER AND MORE POWERFUL DRYING - the maximised blow-drying power with the 2200 watt motor makes this possible.
+				<br>
+                A wave-shaped heating element and special nozzle provide a concentrated airflow at 120km/h. The brushless motor makes the hair dryer more durable.
+                <br>
+                The new generation of hair dryer comes around the corner with PRECISE STYLING CONTROL - The new design ensures even weight distribution for easy handling and effortless styling. The hairdryer weighs only gentle 520g without nozzle and cable.
+                <br>
+                The AEROPRECIS™ TECHNOLOGY combines the aerodynamic design inside with the precisely fitting precision nozzle. This not only concentrates the airflow, but also the temperature distribution. This ensures fast and perfect styling and an optimal fixation of the hair and the look.
+                <br>
+                What exactly is the Aeroprecis™ technology? This unique technology is a combination of four elements that combine to make ghd helios® so revolutionary.
+				<br>
+                The FILTER - The grille design helps to direct air efficiently into the filter and the special design with holes in the filter ensures an even airflow and maximum air intake.
+                <br>
+				<br>
+                The ROTOR is designed to take advantage of aerodynamics and reduces air turbulence and the associated noise level.
+                <br>
+				<br>
+                The STATOR VANES convert the air vortex into a concentrated air flow, thus ensuring a faster drying time.
+                <br>
+				<br>
+                The NOZZLE has a very narrow oval shape which allows the air to flow through the entire width of the nozzle. Swirls are reduced.</p>
+				
+			</div>
+			
+			<div class="col-md-6">
+				<img src="../Images/slidre2.1.png" style="width: 100%">
+			</div>
+			
+		</div>
+		
+		<div class="row mt-5">
+			<div class="col-md-12">
+				<p>The advanced ion technology ensures BRILLIANT RESULTS. A flawless, shiny and smooth finish is created. The different temperature and speed levels allow full control over the styling and the separate cold button easily fixes the look and adds an extra dose of shine.
+
+                Once you have chosen the ghd helios® hairdryer you can choose from four colours. Whether black, bordeaux, dark blue or white - the choice is yours. The hairdryer is covered with silver or gold detailing depending on the base colour.
+
+                A suspension loop made of silicone serves for tidy storage.
+                </p>
+			</div>
+		</div>
+	</section>
+	
+	
+	<section class="container mt-5">
+		<div class="row">
+			<div class="col-md-12 d-flex align-items-center justify-content-center">
+				<div class="col-md-4 border1" style="width: 100%"></div>
+				<h6 style="color: rgb(104, 98, 98); font-size: 20px; width: 100%; text-align: center">THE INNOVATION IN THE TEST</h6>
+				<div class="col-md-4 border1" style="width: 100%"></div>
+			</div>
+		</div>
+	</section>
+	
+	
+	<section class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<p>We have of course tested the ghd helios® for you. I don't want to anticipate too much, but this lightning-fast hairdryer solves so many problems.
+				<br>
+				<br>
+                Every woman with long or thick hair knows the following problem: washing and grooming your hair doesn't take that much time. But the subsequent drying and styling of the hair can be lengthy and tedious. Here comes the first highlight of ghd helios® - the drying time. I normally need about 8 minutes to blow dry my hair. With ghd helios® this time is reduced by 50% to just 4 minutes.
+                This is not only a huge time saving, but also simplifies hair washing. To dry my hair quickly, I blow dry my hair without the nozzle attachment. To get a precise styling, I use the nozzle.
+                I find the noise level on the ghd helios® very pleasant. The hairdryer is exceptionally quiet, making styling very comfortable.
+                <br>
+				<br>
+                My hair is very susceptible to frizz and I often have the problem that it sticks out after drying. However, after drying with the ghd helios® there is no trace of flying or sticking hair. On the contrary, the hair is very shiny and feels smooth and soft. The overall appearance of the hair has changed. And although the hair falls very softly, it has a strong volume and stand.
+                With a large round brush you can easily style beautiful waves. If curls don't last long with you, you can use the cold button here. Simply turn the hair on the round brush, blow-dry it, leave it on the brush and blow-dry it cold with the cold button. This is how you fix the waves in your hair.</p>
+			</div>
+		</div>
+	</section>
+	
+	
+	
+	<section class="container mt-5">
+		<div class="row">
+			<div class="col-md-12 d-flex align-items-center justify-content-center">
+				<div class="col-md-4 border1" style="width: 100%"></div>
+				<h6 style="color: rgb(104, 98, 98); font-size: 20px; width: 100%; text-align: center">CONCLUSION</h6>
+				<div class="col-md-4 border1" style="width: 100%"></div>
+			</div>
+		</div>
+	</section>
+	
+	
+	<section class="container mt-2">
+		<div class="row">
+			<div class="col-md-6">
+				<p>In summary - the ghd helios® is a combination of tremendous power and precise control that turns your styling routine upside down and accelerates extremely.
+				<br>	
+				<br>
+                Here once again for you all the benefits at a glance:
+				<br>
+				<br>	  
+                brushless motor
+				<br>
+                Air flow 120km/h
+				<br>
+                accurate controlling
+				<br>
+                Variable temperature and speed levels
+				<br>
+                Cold air button
+				<br>
+                ergonomical design
+				<br>
+                Acoustic Technology
+				<br>
+                Ion Technology
+				<br>
+                3m cable
+				<br>
+                EU Plug
+				<br>
+                professional nozzle</p>
+			</div>
+			
+			<div class="col-md-6">
+				<img src="../Images/slider2.2.jpg" style="width: 80%">
+			</div>
+		</div>
+	</section>
+	
+	
+	<section class="container mt-5">
+		<div class="row">
+			<div class="col-md-6">
+				<video src="../Video/Entdecke die ghd Wish upon a Star Collection!.mp4" style="width: 100%; height: 420px; background-color: black" controls autoplay></video>
+			</div>
+			
+			<div class="col-md-6">
+				<video src="../Video/ghd helios Haartrockner _ Ultraleicht & Powerful.mp4" style="width: 100%; height: 420px; background-color: black" controls autoplay></video>
+			</div>
+		</div>
+	</section>
+	
+	
+	<!-- InstanceEndEditable -->
+
+ 
+  
+  <section class="t-m container icon footericon">
+    <div class="row">
+      <div class="col-md-2">
+        <center><i class="fas fa-truck-moving"></i></center>
+        <p>FAST DELIVERY</p>
+      </div>
+
+      <div class="col-md-2">
+        <center><i class="fas fa-gift"></i></center>
+        <p>FREE SAMPLE</p>
+      </div>
+
+      <div class="col-md-2">
+        <center><i class="fas fa-lock-alt"></i></center>
+        <p>BUYER PROTECTION</p>
+      </div>
+
+      <div class="col-md-2">
+        <center><i class="fas fa-shopping-cart"></i></center>
+        <p>FREE SHIPPING</p>
+      </div>
+
+      <div class="col-md-2">
+        <center><i class="fas fa-phone-square-alt"></i></center>
+        <p>LOW PRICES</p>
+      </div>
+
+      <div class="col-md-2">
+        <center><i class="fas fa-money-bill-alt"></i></center>
+        <p>RESPONCE ON TIME</p>
+      </div>
+    </div>
+  </section>
+  
+
+
+<footer class="footer-section">
+  <div class="container">
+      <div class="footer-cta pt-5 pb-5">
+          <div class="row">
+              <div class="col-xl-4 col-md-4 mb-30">
+                  <div class="single-cta">
+                      <i class="fas fa-map-marker-alt"></i>
+                      <div class="cta-text">
+                          <h4>Find us</h4>
+                          <span>Aptech Garden</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-md-4 mb-30">
+                  <div class="single-cta">
+                      <i class="fas fa-phone"></i>
+                      <div class="cta-text">
+                          <h4>Call us</h4>
+                          <span>0321-123456789</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-md-4 mb-30">
+                  <div class="single-cta">
+                      <i class="far fa-envelope-open"></i>
+                      <div class="cta-text">
+                          <h4>Mail us</h4>
+                          <span>aptechgarden@gmail.com</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="footer-content pt-5 pb-5">
+          <div class="row">
+              <div class="col-xl-4 col-lg-4 mb-50">
+                  <div class="footer-widget">
+                      <div class="footer-logo">
+                          <a href="../index.html"></a>
+                      </div>
+                      <div class="footer-text">
+                          <p><span style="color: red; font-family: Lucida Calligraphy; font-size: 30px; font-weight: bold;">flip-in</span><span style="font-size: 40px; font-family: Bell MT; color: white;"> HAIR</span></p>
+                          <p>Getting into a hair care routine is just like embarking on a skin care one. Once you’ve found one that works for you, you’ll rarely stray.</p>
+                      </div>
+                      <div class="footer-social-icon">
+                          <span>Follow us</span>
+                          <a href="https://www.facebook.com/"><i class="fab fa-facebook-f facebook-bg fb"></i></a>
+                          <a href="https://twitter.com/?lang=en"><i class="fab fa-twitter twitter-bg tw"></i></a>
+                          <a href="https://accounts.google.com/ServiceLogin/signinchooser?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin"><i class="fab fa-google-plus-g google-bg go"></i></a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                  <div class="footer-widget">
+                      <div class="footer-widget-heading">
+                          <h3>Useful Links</h3>
+                      </div>
+                      <ul>
+                          <li><a href="../index.html">Home</a></li>
+                          <li><a href="../About.html">About us</a></li>
+                          <li><a href="../contactus.html">Contact us</a></li>
+                          <li><a href="Slider2.html">Latest News</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                  <div class="footer-widget">
+                      <div class="footer-widget-heading">
+                          <h3>Subscribe</h3>
+                      </div>
+                      <div class="footer-text mb-25">
+                          <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                      </div>
+                      <div class="subscribe-form">
+                          <form action="#">
+                              <input type="email" placeholder="Email Address" id="email">
+                              <button><i class="fab fa-telegram-plane air-Plane" onClick="email()"></i></button>
+                          </form>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
+    
+
+
+ <script src="../lib/jquery.min.js"></script>   
+ <script src="../lib/popper.min.js"></script>
+ <script src="../lib/bootstrap.min.js"></script>
+ <script src="../lib/typed.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>	
+ <script src="../js/app.js"></script>
+</body>
+<!-- InstanceEnd --></html>
